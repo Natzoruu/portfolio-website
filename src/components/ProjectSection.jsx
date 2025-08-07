@@ -1,11 +1,11 @@
 const projects = [
-    {
+    {   
         id: 1,
-        title: "El Xef de la Memoria",
-        description: "WordPress site for a gastronomic project focused on historical Spanish cuisine and sustainability. It showcases cultural and culinary services with a clear design centered on Valencian identity.",
-        image: "/projects/Chef.jpg",
+        title: "Trendify",
+        description: "My first complete project with WordPress and Elementor. Trendify is a fashion e-commerce website designed with a strong visual focus on featured products and promotions. It offers a clean and responsive user experience across all devices.",
+        image: "/projects/Trendify.jpg",
         state: "Online",
-        link: "https://www.joanclement.com",
+        link: "https://trendify.infinityfree.me/",
         built: "Wordpress",
     },
     {
@@ -19,11 +19,11 @@ const projects = [
     },
     {
         id: 3,
-        title: "Trendify",
-        description: "E-commerce fashion website designed with a visual focus on featured products and promotions. Trendify offers a clear and attractive user experience, fully responsive across devices.",
-        image: "/projects/Trendify.jpg",
+        title: "El Xef de la Memoria",
+        description: "WordPress site for a gastronomic project focused on historical Spanish cuisine and sustainability. It showcases cultural and culinary services with a clear design centered on Valencian identity.",
+        image: "/projects/Chef.jpg",
         state: "Online",
-        link: "https://www.conducetusemociones.pro",
+        link: "https://www.joanclement.com",
         built: "Wordpress",
     },
     {

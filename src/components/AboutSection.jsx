@@ -20,8 +20,8 @@ export const AboutSection = () =>{
                             <a href="#contact" className="style-button">
                                 Get in touch
                             </a>
-                            <a href="#contact" className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration:300">
-                                Download CV
+                            <a href="/CV.pdf"  target="_blank" className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration:300">
+                                View CV
                             </a>
                         </div>
                     </div>
