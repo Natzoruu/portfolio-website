@@ -46,7 +46,7 @@ export const ContactSection = () => {
                         <div className="pt-8">
                             <div className="font-bold items-center mb-4">My <span className="text-primary text-center">Socials</span></div>
                             <div className="flex space-x-4 justify-center">
-                                <a href="www.linkedin.com/in/ajsz2205" target="_blank" rel="noopener noreferrer" className="p-3 rounded-full bg-primary/10 text-primary"><Linkedin/></a>
+                                <a href="https://linkedin.com/in/ajsz2205" target="_blank" rel="noopener noreferrer" className="p-3 rounded-full bg-primary/10 text-primary"><Linkedin/></a>
                                 <a href="https://github.com/Natzoruu" target="_blank" rel="noopener noreferrer" className="p-3 rounded-full bg-primary/10 text-primary"><Github/></a>
                             </div>
                         </div>
