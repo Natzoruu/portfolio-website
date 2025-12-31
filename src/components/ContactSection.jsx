@@ -30,7 +30,7 @@ export const ContactSection = () => {
                                 </div>
                                 <div>
                                     <h4 className="font-bold text-left">Phone</h4>
-                                    <a href="tel:+573184848134">+57 318-484-8134</a>
+                                    <a href="tel:+573143538752">+57 314-353-8752</a>
                                 </div>
                             </div>
                             <div className="flex items-start space-x-4">
@@ -53,7 +53,7 @@ export const ContactSection = () => {
                     </div>
                     <div className="bg-card p-8 rounded-lg shadow-xs">
                         <h3 className="text-2xl font-semibold mb-6">Send a message</h3>
-                        <form className="space-y-6">
+                        <form className="space-y-6" action="https://formsubmit.co/alejsz05.22@gmail.com" method="POST">
                             <div>
                                 <label htmlFor="name" className="block text-sm font-medium mb-2 text-left px-2">Your name</label>
                                 <input type="text" id="name" name="name" required className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary" placeholder="What's your name?"></input>

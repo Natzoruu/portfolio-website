@@ -5,19 +5,22 @@ import { cn } from "../lib/util";
 const skills = [{ name: "HTML", level: "85", category: "frontend" },
                 { name: "CSS", level: "80", category: "frontend" },
                 { name: "JavaScript", level: "70", category: "frontend" },
+                { name: "TypeScript", level: "60", category: "frontend" },
                 { name: "React", level: "65", category: "frontend" },
-                { name: "Tailwind CSS", level: "75", category: "frontend" },
+                { name: "Next.js", level: "65", category: "frontend" },
+                { name: "Tailwind", level: "75", category: "frontend" },
+                { name: "Supabase", level: "80", category: "backend" },
+                { name: "Firebase", level: "75", category: "backend" },
+                { name: "Figma", level: "75", category: "frontend" },
                 { name: "Responsive Design", level: "80", category: "frontend" },
-                // CMS / WordPress
                 { name: "WordPress", level: "85", category: "cms" },
                 { name: "Elementor", level: "85", category: "cms" },
-                { name: "Basic PHP", level: "50", category: "cms" },
-                // Soft / complementarios
+                { name: "PHP", level: "50", category: "cms" },
                 { name: "Git & GitHub", level: "60", category: "tools" },
                 { name: "Website Maintenance", level: "70", category: "tools" },
-                { name: "Basic SEO", level: "65", category: "tools" },
+                { name: "SEO", level: "65", category: "tools" },
 ]
-const categories = ["all", "frontend", "cms", "tools"];
+const categories = ["all", "frontend", "cms", "tools", "backend"];
 export const SkillSection = () => {
   const [activaCategory, setActiveCategory] = useState("all");
 

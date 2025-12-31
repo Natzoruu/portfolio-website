@@ -17,9 +17,9 @@ export const AboutSection = () =>{
                             My main tools include React, Tailwind CSS, JavaScript, and WordPress — where I build dynamic, scalable, and fully customized websites. I’m particularly focused on creating responsive and accessible user experiences, whether starting from scratch, enhancing existing platforms, or exploring immersive media.
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
-                            <a href="#contact" className="style-button">
+                            <button onClick={()=>{document.getElementById("contact").scrollIntoView({ behavior: "smooth" })}} className="style-button">
                                 Get in touch
-                            </a>
+                            </button>
                             <a href="/CV.pdf"  target="_blank" className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration:300">
                                 View CV
                             </a>

@@ -13,9 +13,9 @@ export const HeroSection = () =>{
                 I’m a Multimedia Engineer with a passion for crafting user-centered digital experiences. I specialize in modern web development using technologies like React, Tailwind CSS, and WordPress, as well as 3D and immersive media. My focus is on building clean, responsive, and accessible digital experiences that combine design, functionality, and performance.
             </p>
             <div className="pt-4 opacity-0 animate-fade-in-delay-4">
-                <a href="#projects" className="style-button">
+                <butto onClick={()=>{document.getElementById("projects").scrollIntoView({ behavior: "smooth" })}} className="style-button cursor-pointer hover:scale-110">
                     My work
-                </a>
+                </butto>
             </div>
         </div>
     </div>

@@ -1,8 +1,8 @@
 const projects = [
-    {   
+    {
         id: 1,
         title: "Trendify",
-        description: "My first complete project with WordPress and Elementor. Trendify is a fashion e-commerce website designed with a strong visual focus on featured products and promotions. It offers a clean and responsive user experience across all devices.",
+        description: "A responsive fashion e-commerce platform built on WordPress. Leveraging Elementor for custom layout design, the site features a mobile-first architecture optimized for visual storytelling and product showcasing, ensuring seamless navigation and high user engagement.",
         image: "/projects/Trendify.jpg",
         state: "Online",
         link: "https://trendify.infinityfree.me/",
@@ -11,7 +11,7 @@ const projects = [
     {
         id: 2,
         title: "Conduce tus emociones",
-        description: "WordPress site for a driving coach specialized in emotional management. The design builds trust and closeness, offering resources and services for people looking to overcome the fear of driving.",
+        description: "A specialized service platform designed for emotional management coaching. The UI/UX focuses on accessibility and trust-building, utilizing a calming color psychology and intuitive information architecture to deliver resources to users overcoming driving anxiety.",
         image: "/projects/Conducir.jpg",
         state: "Online",
         link: "https://www.conducetusemociones.pro",
@@ -20,7 +20,7 @@ const projects = [
     {
         id: 3,
         title: "El Xef de la Memoria",
-        description: "WordPress site for a gastronomic project focused on historical Spanish cuisine and sustainability. It showcases cultural and culinary services with a clear design centered on Valencian identity.",
+        description: "A cultural branding website dedicated to historical Spanish cuisine. The project integrates rich media content with a bespoke design system that reflects Valencian heritage, focusing on sustainable gastronomy and storytelling through an immersive web experience.",
         image: "/projects/Chef.jpg",
         state: "Online",
         link: "https://www.joanclement.com",
@@ -29,11 +29,38 @@ const projects = [
     {
         id: 4,
         title: "Siue.ch",
-        description: "Institutional website developed for a university, structured by faculties, undergraduate and postgraduate programs. Designed to simplify access to academic offerings and guide prospective students.",
+        description: "An institutional academic portal featuring complex information architecture. Designed to organize multi-level data (faculties, undergraduate, and postgraduate programs), the site streamlines the user journey for prospective students through efficient navigation logic.",
         image: "/projects/siue.jpg",
         state: "Online",
         link: "https://siue.ch",
         built: "Wordpress",
+    },
+    {
+        id: 5,
+        title: "Alto Perfil",
+        description: "A high-performance personal branding landing page focused on Conversion Rate Optimization (CRO). Built with Next.js and TypeScript for type safety, it utilizes Tailwind CSS to deliver a pixel-perfect, responsive design that effectively communicates value propositions.",
+        image: "/projects/Altoperfil.png",
+        state: "Online",
+        link: "https://altoperfil.vercel.app",
+        built: "Next.js, React, Tailwind CSS, TypeScript",
+    },
+    {
+        id: 6,
+        title: "PolyBox",
+        description: "A modern SaaS-style landing page for a digital asset platform. Engineered with a component-driven architecture using React and TypeScript, the project showcases a premium UI for subscription models, emphasizing visual fidelity and scalable frontend practices.",
+        image: "/projects/polybox.png",
+        state: "Online",
+        link: "https://poly-box.vercel.app",
+        built: "Next.js, React, Tailwind CSS, TypeScript"
+    },
+    {
+        id: 7,
+        title: "NovaShop",
+        description: "A full-stack e-commerce application for high-performance hardware. Developed with Next.js and integrated with Supabase for backend data management, it features dynamic product rendering, real-time database interactions, and a robust state management system tailored for tech enthusiasts.",
+        image: "/projects/novashop.png",
+        state: "In development",
+        link: "https://novashopstore.vercel.app",
+        built: "Next.js, React, Tailwind CSS, TypeScript, Supabase"
     }
 ]
 export const ProjectSection = () => {
@@ -61,7 +88,7 @@ export const ProjectSection = () => {
                             <div className="flex flex-wrap gap-2 mb-4">
                                 <span className="font-bold">Status: </span>{project.state}
                             </div>
-                            <div className="flex flex-wrap gap-2 mb-4">
+                            <div className="flex flex-wrap gap-2 mb-4 text-left">
                                 <span className="font-bold">Built With: </span>{project.built}
                             </div>
                             <div className="flex">
